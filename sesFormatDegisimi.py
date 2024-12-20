@@ -1,7 +1,7 @@
 from pydub import AudioSegment
 
 # Orijinal ses dosyasını yükle
-audio = AudioSegment.from_file("ornek_ses_dosyasi.wav")
+audio = AudioSegment.from_file("ornek_ses_dosyasi1.wav")
 
 # Mono ve 16 kHz formatına dönüştür
 audio = audio.set_channels(1).set_frame_rate(16000)
